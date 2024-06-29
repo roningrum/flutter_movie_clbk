@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_movie_clbk/theme/theme.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Homepage extends StatefulWidget {
   const Homepage({super.key});
@@ -14,7 +15,7 @@ class _HomepageState extends State<Homepage> {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: primaryColor,
-          title: const Text("Hello Cuk", style: TextStyle(fontWeight: FontWeight.w600, color: Colors.white),),
+          title: const Text("Hello Cuk", style: TextStyle()),
         ),
         body: const Column(
           children: [
